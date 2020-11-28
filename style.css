@@ -1,0 +1,437 @@
+@font-face {
+  font-family: "Boogaloo";
+  src: url("fonts/Boogaloo-Regular.woff2") format("woff2"),
+    url("fonts/Boogaloo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Abys";
+  src: url("fonts/Abys-Regular.woff2") format("woff2"),
+    url("fonts/Abys-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Body Grotesque Fit Trial";
+  src: url("fonts/BodyGrotesqueFitTrial-Bold.woff2") format("woff2"),
+    url("fonts/BodyGrotesqueFitTrial-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Norwester";
+  src: url("fonts/Norwester-Regular.woff2") format("woff2"),
+    url("fonts/Norwester-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Remachine Script Personal Use";
+  src: url("fonts/RemachineScriptPersonalUse.woff2") format("woff2"),
+    url("fonts/RemachineScriptPersonalUse.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+.navbar {
+  background-color: black;
+  height: auto;
+  box-shadow: none;
+  margin: 0%;
+  width: 100%;
+}
+
+.navbar-toggler {
+  background-color: red !important;
+}
+.navbar-collapse {
+  background-color: black;
+}
+
+
+a.navbar-brand p {
+  position: relative;
+   font-family: "Abys";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+color: whitesmoke;
+}
+
+.nav-link {
+  color: #e04545 !important;
+  text-align: center;
+  font-family: "Body Grotesque Fit Trial";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.nav-item:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.nav-item:active {
+  color: white !important;
+}
+.banner {
+  background: url("images/HeroImage.png");
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background-repeat: repeat;
+}
+
+.banner-content {
+  width: 58%;
+  padding-top: 90px;
+}
+
+.banner-text {
+  font-weight: 500;
+  letter-spacing: 5px;
+  background-color: transparent;
+}
+
+.gluten-free {
+  color: rgb(245, 199, 199);
+  text-shadow: 0.15em 0.15em 0.15em #e04545;
+  user-select: none;
+  white-space: nowrap;
+  filter: blur(0.007em);
+  font-family: "Norwester";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px !important;
+}
+
+.classic-header {
+  font-family: "Body Grotesque Fit Trial";
+  font-weight: bold;
+  font-style: normal;
+  background-color: transparent;
+  color: rgb(255, 0, 64);
+  text-shadow: 5px 5px 0px #691306;
+  font-size: 60px;
+  line-height: 87%;
+}
+#white-font {
+  color: white;
+}
+.shake {
+  font-family: "Remachine Script Personal Use";
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  color: yellow;
+  margin-top: -9%;
+  font-size: 60px;
+  text-shadow: 5px 5px 0px #55350b;
+}
+.price {
+  font-family: "Boogaloo";
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  color: white;
+  margin-top: -5%;
+  font-size: 30px;
+}
+
+#menu-button {
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  background-color: yellow;
+  border: none;
+  padding: 10px;
+}
+
+#menu-button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+@media only screen and (min-device-width: 651px) and (max-width: 1000px) {
+  .gluten-free {
+    font-size: 40px !important;
+  }
+
+  .classic-header {
+    text-shadow: 5px 5px 0px #55150b;
+    font-size: 60px;
+    line-height: 80%;
+  }
+  #white-font {
+    color: white;
+    font-size: 60px !important;
+  }
+  .shake {
+    margin-top: -11% !important;
+    font-size: 50px;
+  }
+  .price {
+    margin-top: -8%;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-width: 650px) {
+  
+  .gluten-free {
+    font-size: 25px !important;
+  }
+
+  #red-font{
+    font-size: 40px;
+    line-height: 70% !important;
+  }
+
+  #white-font {
+    color: white;
+    font-size: 40px !important;
+    line-height: 100%;
+  }
+  .shake {
+    margin-top: -10% !important;
+    font-size: 50px;
+    line-height: 60%;
+    margin-bottom: 6% !important;
+  }
+  .price {
+    margin-top: 0%;
+    font-size: 20px;
+  }
+}
+
+.opening-times {
+  background-color: rgb(197, 4, 4);
+  font-family: "Body Grotesque Fit Trial";
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  padding: 2%;
+}
+
+.opening-times li {
+  list-style-type: none;
+  font-size: 25px;
+  color: white;
+}
+#times{
+  font-family: "Norwester";
+   font-weight: 200;
+  font-style: normal;
+}
+
+.subscribe {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: "norwester";
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.menu-info {
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+}
+#view-menu{
+  background-color: rgb(197, 4, 4);
+  color: whitesmoke;
+ border-radius: 10px;
+ border: none;
+ padding: 5%;
+cursor: pointer;
+}
+
+.row {
+  margin: 0% !important;
+  align-content: center;
+}
+
+.column {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin: 2%;
+
+}
+#column1 {
+  background-image: url("images/milkshakes.PNG");
+  align-content: center;
+  width: 315px;
+  height: auto;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#column2 {
+  align-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 315px;
+  height: auto;
+  background-color: yellow;
+  border-radius: 15px;
+}
+
+#column2 h2 {
+  font-family: "Body Grotesque Fit Trial";
+  font-weight: bold;
+  font-style: normal;
+}
+
+#column3 {
+  align-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 315px;
+  height: auto;
+  background-color: rgb(197, 4, 4);
+  border-radius: 15px;
+}
+
+#column3 h2 {
+  font-family: "Body Grotesque Fit Trial";
+  font-weight: bold;
+  font-style: normal;
+}
+
+#column4 {
+  background-image: url("images/burger.png");
+  align-content: center;
+  width: 315px;
+  height: auto;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+
+@media only screen and (min-width: 550px) and (max-width: 1200px) {
+  #column1 {
+    width: 315px;
+    height: auto;
+  }
+  #column2 {
+    width: 315px;
+    height: auto;
+  }
+  #column3 {
+    width: 315px;
+    height: auto;
+  }
+  #column4{
+    width: 315px;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+ #column1 {
+    width: 315px;
+    height: auto;
+  }
+  #column2 {
+    width: 315px;
+    height: auto;
+  }
+  #column3 {
+    width: 315px;
+    height: auto;
+  }
+  #column4{
+    width: 315px;
+    height: auto;
+}
+}
+
+
+#about-us {
+  background-color: rgb(0, 0, 0);
+  padding: 4%;
+  color: rgb(255, 255, 255);
+}
+
+#about-us h1 {
+  font-family: "Abys";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.about {
+  column-count: 2;
+  align-items: center;
+  text-align: center;
+}
+
+#about-us p {
+  font-size: 25px;
+  font-weight: unset;
+}
+
+@media only screen and (max-width: 500px) {
+  #about-us p {
+    font-size: 20px;
+  }
+}
+
+#contact-us {
+  background-color: rgb(255, 217, 0);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 2%;
+}
+
+#contact-us h1 {
+  font-size: 45px !important;
+  font-weight: 500;
+  font-family: "Body Grotesque Fit Trial";
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(197, 4, 4);
+  margin: 0%;
+}
+
+#contact-us li {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(27, 25, 25);
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+

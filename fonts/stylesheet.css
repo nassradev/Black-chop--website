@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Boogaloo';
+    src: url('Boogaloo-Regular.woff2') format('woff2'),
+        url('Boogaloo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BadaBoom BB';
+    src: url('BadaBoomBB.woff2') format('woff2'),
+        url('BadaBoomBB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Norwester';
+    src: url('Norwester-Regular.woff2') format('woff2'),
+        url('Norwester-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Remachine Script Personal Use';
+    src: url('RemachineScriptPersonalUse.woff2') format('woff2'),
+        url('RemachineScriptPersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
